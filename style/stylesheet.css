@@ -149,8 +149,8 @@ nav ul li a:hover
 }
 #div1
 {
- background-position: center;
-   background-size: cover;
+    background-position: center;
+    background-size: cover;
     background-image: url(../image/img1.jpg);   
 }
 #div2
@@ -163,7 +163,7 @@ nav ul li a:hover
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0.2);
-    background-color: white;
+    background-color: gainsboro;
     float: right;
        
 }
@@ -217,6 +217,14 @@ nav ul li a:hover
         margin: 40px 0 auto;
         
     }
+}
+#slider
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    
 }
 
 
