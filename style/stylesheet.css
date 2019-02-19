@@ -18,7 +18,7 @@ header
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;    
-    background-color:#55DBD2;
+    background-color:#35b9ae;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0.2);
@@ -77,15 +77,15 @@ nav ul li a
 nav ul li a.active,
 nav ul li a:hover
 {
-    background: #4c8a8a);
+    background: #55DBD2;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 @media (max-width: 1200px)
 {
     header
     {
-        margin: 20px;
+        margin: 5px;
     }
 }
 @media (max-width: 768px)
@@ -158,12 +158,12 @@ nav ul li a:hover
     position: relative;
     width: 350px;
     height: 400px;
-    margin: 20px 20px auto;
+    margin: 40px 60px auto;
     padding: 10px;
-    background-color: white;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0.2);
+    background-color: white;
     float: right;
        
 }
@@ -206,18 +206,18 @@ nav ul li a:hover
 {
     .div1 
     {
-        margin: 20px;
+        margin: 5px;
     }
 }
 @media screen and (max-width:640px)
 {
    #div2
     {
-        width: 90%;
+        width: 100%;
+        margin: 40px 0 auto;
         
     }
 }
-
 
 
 /*----------FOOTER---------*/
