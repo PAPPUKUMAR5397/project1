@@ -209,6 +209,15 @@ nav ul li a:hover
         margin: 20px;
     }
 }
+@media screen and (max-width:640px)
+{
+   #div2
+    {
+        width: 90%;
+        
+    }
+}
+
 
 
 /*----------FOOTER---------*/
