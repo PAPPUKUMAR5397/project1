@@ -15,9 +15,10 @@
 	}
 	.catbox
 	{
-		height: 147px;
-		width: 147px;
+		height: 165px;
+		width: 165px;
 		position: relative;
+		margin: 5px;
 	}
 	.catbox span
 	{
