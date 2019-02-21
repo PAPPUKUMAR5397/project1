@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-   <title>Footgap </title>
+    <title>Footgap </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/jquery.bxslider.css" type="text/css">
     <link rel="stylesheet" href="fontawesome-free/css/all.min.css" type="text/css">
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    
     <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="style/media.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
@@ -17,64 +19,205 @@
 
     <!----------Header ----------->
     
-    
-    <header>
-        <!--<a href="#" class="logo">Logo</a>-->
-        <div  >
-        <img alt="" width="230" height="230" src="image/logo.png" class="logo" href="https://www.google.co.in/">
-        <a id="tect_title">Footgap</a>
-        </div>
-        <div class="menu-toggle"></div>
-        <nav>
-            <ul>
-                <li><a href="https://www.google.co.in/" .class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="clearfix"></div>
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
-        <script type="text/javascript">
-         $(document).ready(function(){
-             $('.menu-toggle').click(function(){
-                 $('.menu-toggle').toggleClass('active')
-                 $('nav').toggleClass('active')
-             })
-         })
-        </script>
-    </header> 
-    
-    
-    <!--------Meed_Work---------->
-    <div id="slider" >
-           <ul class="bxslider">
-               <li><img src="image/img1.jpg"></li>
-               <li><img src="image/img2.jpg"></li>
-               <li><img src="image/img3.jpg"></li>
-               <li><img src="image/img4.jpg"></li>
-               <li><img src="image/img5.jpg"></li>
-               <li><img src="image/img6.jpg"></li>
-               <li><img src="image/img7.jpg"></li>
-           </ul>
-      </div>
+<header>
+	<!--<a href="#" class="logo">Logo</a>-->
+	<div>
+		<img alt="" width="230" height="230" src="image/logo.png" class="logo" href="https://www.google.co.in/">
+		<a id="tect_title">Footgap</a>
+	</div>
+	<div class="menu-toggle"></div>
+	<nav>
+		<ul>
+			<li><a href="https://www.google.co.in/" .class="active">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="clearfix"></div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.menu-toggle').click(function() {
+				$('.menu-toggle').toggleClass('active')
+				$('nav').toggleClass('active')
+			})
+		})
+	</script>
+</header>
+
+<!--------Meed_Work---------->
    
-    <script src="https://code.jquery.com/jquery-3.3.1.js" 
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
-            crossorigin="anonymous">
-    </script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/my.js"></script>
-    
-    <div class="div1" id="div1">   
-       
+    <!--------Image Slider---------->
+<div id="slider">
+	<ul class="bxslider">
+		<li><img src="image/slider/img1.jpg"></li>
+		<li><img src="image/slider/img2.jpg"></li>
+		<li><img src="image/slider/img3.jpg"></li>
+		<li><img src="image/slider/img4.jpg"></li>
+		<li><img src="image/slider/img5.jpg"></li>
+		<li><img src="image/slider/img6.jpg"></li>
+		<li><img src="image/slider/img7.jpg"></li>
+	</ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+</script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/my.js"></script>
+
+
+     <!-- ------Category-block--------->
+<div class="container">
+	<div id="heading-block"><h1>Category</h1></div>
+
+		<!-----1st catbox------->
+		<a href="#">
+			<div class="catbox">
+				<img src="image/cat/cat1.jpeg" alt="">
+				<span>MEN FOOTWEAR</span>
+			</div>
+		</a>
+		
+		<!-----2st catbox------->
+		<a href="#">
+			<div class="catbox">
+				<img src="image/cat/cat2.jpeg" alt="">
+				<span>MEN FOOTWEAR</span>
+			</div>
+		</a>
+		<!-----3st catbox------->
+		<a href="#">
+			<div class="catbox">
+				<img src="image/cat/cat3.jpeg" alt="">
+				<span>MEN FOOTWEAR</span>
+			</div>
+		</a>
+		<!-----4st catbox------->
+		<a href="#">
+			<div class="catbox">
+				<img src="image/cat/cat4.jpeg" alt="">
+				<span>MEN FOOTWEAR</span>
+			</div>
+		</a>
+		<!-----5st catbox------->
+		<a href="#">
+			<div class="catbox">
+				<img src="image/cat/cat5.jpeg" alt="">
+				<span>MEN FOOTWEAR</span>
+			</div>
+		</a>
+		
+		<!-------------Heading of category------>
+		<div id="heading-block"><h1>Products</h1></div>
+	     <div class="prod-container">
+	        <!----- 1st Product------>
+		  	 <div class="prod-box">
+					<img src="image/pro/pro1.jpg" alt="main suit">
+					<div class="prod-trans">
+						<div class="prod-feature">
+							<p>Special for you</p>
+							<p style="color: white; font-weight: bold;">Price: ₹ 3500</p>
+							<input type="button" value="Add to cart">
+						</div>
+					</div>		
+			 </div>
+			 <!------ 2st Product------>
+			 <div class="prod-box">
+					<img src="image/pro/pro2.jpg" alt="main suit">
+					<div class="prod-trans">
+						<div class="prod-feature">
+							<p>Special for you</p>
+							<p style="color: white; font-weight: bold;">Price: ₹ 3500</p>
+							<input type="button" value="Add to cart">
+						</div>
+					</div>		
+			 </div>
+     		<!------ 3st Product------>
+			 <div class="prod-box">
+					<img src="image/pro/pro1.jpg" alt="main suit">
+					<div class="prod-trans">
+						<div class="prod-feature">
+							<p>Special for you</p>
+							<p style="color: white; font-weight: bold;">Price: ₹ 3500</p>
+							<input type="button" value="Add to cart">
+						</div>
+					</div>		
+			 </div>
+     		<!------ 4st Product------>
+			 <div class="prod-box">
+					<img src="image/pro/pro2.jpg" alt="main suit">
+					<div class="prod-trans">
+						<div class="prod-feature">
+							<p>Special for you</p>
+							<p style="color: white; font-weight: bold;">Price: ₹ 3500</p>
+							<input type="button" value="Add to cart">
+						</div>
+					</div>		
+			 </div>
+	     </div> 
+</div>
+    <div class="container">
+	<div id="heading-block"><h1>Offer</h1></div>
+    <!------OFFER BOX-------->
+    <div class="offer">
+    	<a href="#"><img src="image/offer/off1.jpg" alt=""></a> 	
     </div>
-    <div class="div1" > <div id="div2"></div>  </div>   
-      
-      
+    <div class="offer">
+    	<a href="#"><img src="image/offer/off2.jpg" alt=""></a> 	
+    </div>
+    <div class="offer">
+    	<a href="#"><img src="image/offer/off1.jpg" alt=""></a> 	
+    </div>
+
+    
 
     <!----------FOOTER--------->
-    </body>
+    
+    
+    <div id="footer">
+    	<div class="container">
+    		<div class="fpart1">
+				<h2>Our Story</h2>
+    			<p>Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature <span><a href="#">Read more..</a></span> </p>
+    		</div>
+    		<div class="fpart2">
+    			<center>
+    				<h2>Important Link</h2>
+    				<ul>
+    					<li><a href="#"><i class="fas fa-home fa-fw"></i>HOME</a>
+    					<li><a href="#"><i class="fa fa-retweet fa-fw"></i>Deal</a>
+    					<li><a href="#"><i class="fa fa-product-hunt fa-fw"></i>Product</a>
+    					<li><a href="#"><i class="fa fa-cube fa-fw"></i>Other</a>
+    						
+    				</ul>
+    			</center>
+    		</div>
+    		<div class="fpart2">
+    			<center>
+    				<h2>Social Link</h2>
+    				<ul>
+    					<li><a href="#"><i class="fa fa-facebook-official fa-fw" ></i>Facebook</a>
+    					<li><a href="#"><i class="fa fa-youtube-square fa-fw"></i>Youtube</a>
+    					<li><a href="#"><i class="fa fa-google-plus-square fa-fw"></i>Google+</a>
+    					<li><a href="#"><i class="fa fa-twitter fa-fw"></i>Twitter</a>
+    					<li><a href="#"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+    					<li><a href="#"><i class="fa fa-linkedin-square fa-fw"></i>Linkedin</a>
+    					<li><a href="#"><i class="fa fa-rss-square fa-fw"></i>Blogger</a>
+    						
+    				</ul>
+    			</center>
+    		</div>
+    		<div class="fpart3">
+    			<center>
+    				<h2>Subscribe</h2>
+    				<input type="text" name="sub" placeholder="Enter you email id" class="subs">
+    				<input type="submit" name="sub_btn" value="Subscribe" class="sub_btn">
+    			</center>
+    		</div>
+    	</div>
+    </div>
+</body>
 
 </html>
