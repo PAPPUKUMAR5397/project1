@@ -88,7 +88,7 @@ nav ul li a:hover
     border-radius: 5px;
 }
 
-@media (max-width: 479px)
+@media (max-width: 600px)
 {
     .menu-toggle
     {
@@ -120,6 +120,7 @@ nav ul li a:hover
     {
         display: block;
         width: 100%;
+		
     }
     nav.active ul
     {
@@ -128,6 +129,8 @@ nav ul li a:hover
     nav.active ul li a
     {
         margin: 0;
+		font-size: 20px;
+		
     }
 }
 
@@ -155,6 +158,7 @@ nav ul li a:hover
     margin: 0px auto;
 	float: left;
 	border: 2px solid;
+	
 }
 
 #heading-block h1
@@ -209,8 +213,8 @@ nav ul li a:hover
 /*------Product style-------*/
 .prod-box
 {
-	width: 225px;
-	height: 285px;
+	width: 220px;
+	height: 280px;
 	float: left;
 	overflow: hidden;
 	position: relative;
