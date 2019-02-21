@@ -13,4 +13,11 @@
 	{
 		margin: 5px;
 	}
+	.catbox
+	{
+		height: 146px;
+		width: 146px;
+		position: relative;
+		
+	}
 }
