@@ -28,4 +28,20 @@
 		font-size: 10px;
 	
 	}
+	.prod-box
+	{
+		width: 165px;
+		height: 210px;
+		margin: 5px;
+	}
+	.prod-box:hover .prod-feature
+	{
+		margin-top: 90px;
+	}
+	.prod-feature input
+	{
+		width: 90px;
+		height: 25px;
+		font-size: 15px;
+	}
 }
