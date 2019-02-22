@@ -44,4 +44,9 @@
 		height: 25px;
 		font-size: 15px;
 	}
+	.offer
+	{
+		width: 100%;
+		margin: 7px;
+	}
 }
